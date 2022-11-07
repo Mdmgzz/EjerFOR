@@ -8,12 +8,10 @@ public class Ejercicio03 {
 	
 		// iniciamos bucle 
 		 
-		for( int i=1;i>100;i*=7 ) {
-			System.out.println(multiplos);
-			multiplos = multiplos*7;
+		for( int i=1;multiplos<100;i++ ) {			// empezamos el bucle en 1, se ejecuta mientras la variable sea menor que 100 y multiplica por 7
+			System.out.println(multiplos);			// mostramos el resultado
+			multiplos=i*7;							// multiplicamos la variale i por 7
 		}
-		System.out.println(multiplos);
-		
 	}
 
 }
